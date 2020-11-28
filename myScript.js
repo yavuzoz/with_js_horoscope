@@ -2,7 +2,7 @@ function zodiac() {
     let birthmonth = document.getElementById("month").value;
     let birthday = document.getElementById("day").value;
     let result = "unknown because you didn't put a valid date.";
-
+  /*normalde ay gun ve result u var ile tanimlarim diye dusunuyordum, ama var kullanilmasin dendigi icin let kullandim. ki burada const kullanilamazdi*/
     if (birthmonth == 1 && birthday >= 20 || birthmonth == 2 && birthday <= 18
     ) {
         result = ("Aquarius");
